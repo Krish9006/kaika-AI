@@ -1,6 +1,6 @@
 export default function Trust() {
     return (
-        <section className="py-12 md:py-24 px-6 md:px-12 bg-white relative overflow-hidden">
+        <section className="py-12 md:py-16 px-6 md:px-12 bg-white relative overflow-hidden">
             {/* Subtle background decoration */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-slate-50/50 via-white to-white pointer-events-none" />
 

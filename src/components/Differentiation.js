@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Differentiation() {
     return (
-        <section className="py-12 md:py-24 px-6 md:px-12 bg-white relative overflow-hidden">
+        <section className="py-6 md:py-16 px-6 md:px-12 bg-white relative overflow-hidden">
             <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
 
                 {/* Left: Content */}

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="relative min-h-[110vh] flex flex-col pt-20 pb-0 px-6 md:px-12 overflow-hidden bg-white/50 backdrop-blur-3xl">
+        <section className="relative flex flex-col pt-24 lg:pt-20 pb-0 px-6 md:px-12 overflow-hidden bg-white/50 backdrop-blur-3xl min-h-[auto] lg:min-h-[110vh]">
 
             {/* Subtle Gradient Orbs */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
@@ -30,7 +30,7 @@ export default function Hero() {
                 </button>
             </nav>
 
-            <div className="max-w-7xl mx-auto w-full relative z-10 grid lg:grid-cols-2 gap-12 items-center px-4 md:px-0 mt-8 mb-12 lg:mb-0">
+            <div className="max-w-7xl mx-auto w-full relative z-10 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center px-4 md:px-0 mt-8 mb-8 lg:mb-0">
 
                 {/* Left: Typography */}
                 <div className="pl-2 text-center lg:text-left">
