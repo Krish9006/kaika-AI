@@ -3,8 +3,8 @@ export default function HowItWorks() {
         <section className="py-12 md:py-16 px-6 md:px-12 bg-slate-50/50 relative overflow-hidden">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-slate-900 tracking-tight">How it works</h2>
-                    <p className="text-slate-600 max-w-lg mx-auto text-lg font-medium">A simple, guided path from confusion to clarity.</p>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-slate-900 tracking-tight">A simple path from confusion to clarity</h2>
+                    <p className="text-slate-600 max-w-lg mx-auto text-lg font-medium">Guided reflection. Personalized synthesis. Practical action.</p>
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-12 relative">
@@ -12,9 +12,9 @@ export default function HowItWorks() {
                     <div className="hidden md:block absolute top-12 left-[15%] right-[15%] h-[2px] bg-gradient-to-r from-slate-200 via-indigo-200 to-slate-200" />
 
                     {[
-                        { step: "01", title: "Reflect", icon: "🌱", desc: "Answer deep, guided questions about your feelings." },
-                        { step: "02", title: "Synthesize", icon: "✨", desc: "Our AI helps you connect the dots between passion and skills." },
-                        { step: "03", title: "Act", icon: "🚀", desc: "Receive clarity on your next best step." }
+                        { step: "01", title: "Reflect", icon: "🌱", desc: "Guided questions help you explore what you care about, what drains you, and what gives you energy — at your own pace." },
+                        { step: "02", title: "Synthesize", icon: "✨", desc: "Kaika AI connects patterns across your reflections, values, strengths, and life context using the Ikigai framework." },
+                        { step: "03", title: "Act", icon: "🚀", desc: "You receive small, practical actions to align your daily life with what truly matters — without overwhelm." }
                     ].map((item, i) => (
                         <div key={i} className="relative z-10 group text-center">
                             <div className="w-24 h-24 mx-auto bg-white border border-slate-100 rounded-[2rem] flex items-center justify-center mb-8 shadow-sm group-hover:shadow-xl group-hover:scale-110 transition-all duration-300 relative">

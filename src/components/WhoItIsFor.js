@@ -48,14 +48,14 @@ export default function WhoItIsFor() {
                 {/* Right Side: Content */}
                 <div className="order-1 lg:order-2 text-center lg:text-left">
                     <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold mb-10 text-slate-900 tracking-tight leading-[0.95]">
-                        Built for those seeking <br /><span className="text-indigo-600">radical clarity</span>.
+                        Kaika AI is for you if…
                     </h2>
                     <div className="space-y-4 max-w-lg mx-auto lg:mx-0 text-left">
                         {[
-                            "Designers & Creators blocked by perfectionism.",
-                            "Founders driven by purpose, not just profit.",
-                            "High-performers feeling silent burnout.",
-                            "Anyone looking to align with their life's work."
+                            "You feel stuck or misaligned in your career or life.",
+                            "You’re successful on paper, but unfulfilled inside.",
+                            "You’re navigating a life or career transition.",
+                            "You want meaning — not just motivation."
                         ].map((item, i) => (
                             <div key={i} className="flex items-center gap-5 p-5 rounded-3xl bg-slate-50 border border-transparent hover:bg-white hover:border-slate-200 hover:shadow-lg transition-all group cursor-default">
                                 <div className="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-slate-600 font-bold text-sm group-hover:bg-indigo-600 group-hover:text-white transition-colors">
@@ -65,6 +65,9 @@ export default function WhoItIsFor() {
                             </div>
                         ))}
                     </div>
+                    <p className="text-slate-500 text-base mt-8 italic font-medium">
+                        Especially useful for students, early-career professionals, and people in transition.
+                    </p>
                 </div>
 
             </div>

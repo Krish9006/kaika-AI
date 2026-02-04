@@ -6,11 +6,12 @@ export default function Problem() {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-12">
                     <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-slate-900">
-                        You’re not broken. <span className="text-slate-400">You’re just noisy.</span>
+                        You’re not broken. <span className="text-slate-400">You’re overwhelmed.</span>
                     </h2>
                     <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
-                        The world demands speed. We demand depth. <br />
-                        Kaika AI helps you clear the fog and find your authentic signal.
+                        Many people feel stuck not because they lack ability — but because they lack space to reflect. <br className="hidden md:block" />
+                        Between constant noise, expectations, and survival mode, it’s easy to lose sight of what actually matters. <br />
+                        <span className="text-indigo-600 font-medium">Kaika exists to help you slow down, listen inward, and reconnect with your direction.</span>
                     </p>
                 </div>
 

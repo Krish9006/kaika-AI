@@ -1,6 +1,7 @@
+
 import Image from "next/image";
 
-export default function Hero({ onOpenModal, onOpenSurvey }) {
+export default function B2BHero() {
     return (
         <section className="relative flex flex-col pt-24 lg:pt-20 pb-0 px-6 md:px-12 overflow-hidden bg-white/50 backdrop-blur-3xl min-h-[auto] lg:min-h-[110vh]">
 
@@ -20,16 +21,13 @@ export default function Hero({ onOpenModal, onOpenSurvey }) {
                 </div>
 
                 <div className="hidden md:flex items-center gap-10 bg-slate-50/80 px-10 py-3 rounded-full border border-slate-200/50 backdrop-blur-md shadow-sm">
-                    <a href="#how-it-works" className="text-sm font-semibold text-slate-500 hover:text-indigo-600 transition-colors">How it Works</a>
-                    <a href="#about" className="text-sm font-semibold text-slate-500 hover:text-indigo-600 transition-colors">About</a>
-                    <a href="#contact" className="text-sm font-semibold text-slate-500 hover:text-indigo-600 transition-colors">Contact</a>
+                    <a href="#pilot" className="text-sm font-semibold text-slate-500 hover:text-indigo-600 transition-colors">The Pilot</a>
+                    <a href="#insights" className="text-sm font-semibold text-slate-500 hover:text-indigo-600 transition-colors">Insights</a>
+                    <a href="#security" className="text-sm font-semibold text-slate-500 hover:text-indigo-600 transition-colors">Security</a>
                 </div>
 
-                <button
-                    onClick={onOpenModal}
-                    className="bg-slate-900 text-white px-5 py-2.5 md:px-8 md:py-3 rounded-full text-xs md:text-sm font-semibold hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/10 active:scale-95"
-                >
-                    Get Started
+                <button className="bg-slate-900 text-white px-5 py-2.5 md:px-8 md:py-3 rounded-full text-xs md:text-sm font-semibold hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/10 active:scale-95">
+                    Contact Sales
                 </button>
             </nav>
 
@@ -38,46 +36,42 @@ export default function Hero({ onOpenModal, onOpenSurvey }) {
                 {/* Left: Typography */}
                 <div className="pl-2 text-center lg:text-left">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100/80 border border-slate-200 mb-6 mx-auto lg:mx-0">
-                        <span className="flex h-2 w-2 rounded-full bg-indigo-500"></span>
-                        <span className="text-sm font-medium text-slate-600">Not therapy. Not productivity hacks. A space to think clearly again.</span>
+                        <span className="flex h-2 w-2 rounded-full bg-indigo-500 relative">
+                            <span className="absolute inline-flex h-full w-full rounded-full bg-indigo-500 opacity-75 animate-ping"></span>
+                        </span>
+                        <span className="text-sm font-medium text-slate-600">Now Accepting Pilot Partners</span>
                     </div>
 
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1]">
-                        Find clarity when life feels <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">directionless.</span>
+                        Align your workforce. <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Prevent burnout</span> before it starts.
                     </h1>
 
                     <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
-                        Kaika AI helps you discover your purpose and align your work, values, and daily actions — through guided reflection inspired by Ikigai and psychology.
+                        Kaika AI gives your organization deep, anonymized insights into employee purpose and well-being — helping you retain top talent through meaning, not just perks.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <button
-                            onClick={onOpenModal}
-                            className="bg-slate-900 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-800 transition-all shadow-xl shadow-slate-900/20 hover:-translate-y-1 active:scale-95 flex items-center gap-2 justify-center"
-                        >
-                            Join Early Access
-                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        <button className="bg-slate-900 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-800 transition-all shadow-xl shadow-slate-900/20 hover:-translate-y-1 active:scale-95 flex items-center gap-2 justify-center">
+                            Inquire for Pilot
                         </button>
-                        <button
-                            onClick={onOpenSurvey}
-                            className="bg-white text-slate-600 border border-slate-200 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-50 hover:text-slate-900 transition-all flex items-center gap-2 justify-center"
-                        >
-                            Take 5-min Purpose Survey
+                        <button className="bg-white text-slate-600 border border-slate-200 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-50 hover:text-slate-900 transition-all flex items-center gap-2 justify-center">
+                            View Sample Report
                         </button>
                     </div>
 
                     <div className="mt-8 flex items-center justify-center lg:justify-start gap-6 text-sm font-semibold text-slate-500">
                         <div className="flex items-center gap-2">
+                            <span className="w-5 h-5 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600 text-xs">👥</span>
+                            For HR Leaders
+                        </div>
+                        <div className="flex items-center gap-2">
                             <span className="w-5 h-5 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600 text-xs">🔒</span>
-                            Privacy-first
+                            Privacy-First Aggregation
                         </div>
                         <div className="flex items-center gap-2">
-                            <span className="w-5 h-5 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600 text-xs">🎓</span>
-                            Research-informed
-                        </div>
-                        <div className="flex items-center gap-2">
-                            <span className="w-5 h-5 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600 text-xs">❤️</span>
-                            Human-centered
+                            <span className="w-5 h-5 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600 text-xs">🌱</span>
+                            Ikigai-Based Framework
                         </div>
                     </div>
                 </div>
@@ -87,10 +81,10 @@ export default function Hero({ onOpenModal, onOpenSurvey }) {
                     {/* Main 3D Illustration */}
                     <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px]">
                         <Image
-                            src="/hero-ill.png"
-                            alt="Mental Clarity Illustration"
+                            src="/b2b-hero-ill.png"
+                            alt="Organizational Harmony Illustration"
                             fill
-                            className="object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700"
+                            className="object-contain drop-shadow-2xl"
                             priority
                         />
                     </div>
