@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Differentiation() {
     return (
-        <section className="py-24 px-6 md:px-12 bg-white relative overflow-hidden">
+        <section className="py-12 md:py-24 px-6 md:px-12 bg-white relative overflow-hidden">
             <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
 
                 {/* Left: Content */}
@@ -36,10 +36,10 @@ export default function Differentiation() {
                 </div>
 
                 {/* Main Illustration Area */}
-                <div className="relative h-[400px] lg:h-[500px] w-full rounded-[2.5rem] bg-slate-50 border border-slate-100 overflow-hidden flex items-center justify-center group shadow-2xl delay-100">
+                <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-[2.5rem] bg-slate-50 border border-slate-100 overflow-hidden flex items-center justify-center group shadow-2xl delay-100">
                     <div className="absolute inset-0 bg-gradient-to-br from-indigo-50/50 via-white to-pink-50/50" />
 
-                    <div className="relative z-10 w-full h-full p-12 flex items-center justify-center">
+                    <div className="relative z-10 w-full h-full p-8 md:p-12 flex items-center justify-center">
                         <div className="relative w-full h-full max-w-sm max-h-sm flex items-center justify-center">
                             <Image
                                 src="/bloom-ill.png"

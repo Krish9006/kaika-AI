@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Problem() {
     return (
-        <section className="py-12 px-6 md:px-12 bg-slate-50">
+        <section className="py-12 md:py-24 px-6 md:px-12 bg-slate-50">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-12">
                     <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-slate-900">

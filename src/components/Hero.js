@@ -30,7 +30,7 @@ export default function Hero() {
                 </button>
             </nav>
 
-            <div className="max-w-7xl mx-auto w-full relative z-10 grid lg:grid-cols-2 gap-12 items-center px-4 md:px-0 mt-8 mb-20 lg:mb-0">
+            <div className="max-w-7xl mx-auto w-full relative z-10 grid lg:grid-cols-2 gap-12 items-center px-4 md:px-0 mt-8 mb-12 lg:mb-0">
 
                 {/* Left: Typography */}
                 <div className="pl-2 text-center lg:text-left">
