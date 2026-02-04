@@ -36,8 +36,8 @@ export default function Hero({ onOpenModal, onOpenSurvey }) {
             <div className="max-w-7xl mx-auto w-full relative z-10 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center px-4 md:px-0 mt-8 mb-8 lg:mb-0">
 
                 {/* Left: Typography */}
-                <div className="pl-2 text-center lg:text-left">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100/80 border border-slate-200 mb-6 mx-auto lg:mx-0">
+                <div className="pl-2 text-left">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100/80 border border-slate-200 mb-6">
                         <span className="flex h-2 w-2 rounded-full bg-indigo-500"></span>
                         <span className="text-sm font-medium text-slate-600">Not therapy. Not productivity hacks. A space to think clearly again.</span>
                     </div>
@@ -46,11 +46,11 @@ export default function Hero({ onOpenModal, onOpenSurvey }) {
                         Find clarity when life feels <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">directionless.</span>
                     </h1>
 
-                    <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
+                    <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed font-medium">
                         Kaika AI helps you discover your purpose and align your work, values, and daily actions — through guided reflection inspired by Ikigai and psychology.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <div className="flex flex-col sm:flex-row gap-4 justify-start">
                         <button
                             onClick={onOpenModal}
                             className="bg-slate-900 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-800 transition-all shadow-xl shadow-slate-900/20 hover:-translate-y-1 active:scale-95 flex items-center gap-2 justify-center"
@@ -66,7 +66,7 @@ export default function Hero({ onOpenModal, onOpenSurvey }) {
                         </button>
                     </div>
 
-                    <div className="mt-8 flex items-center justify-center lg:justify-start gap-6 text-sm font-semibold text-slate-500">
+                    <div className="mt-8 flex items-center justify-start gap-6 text-sm font-semibold text-slate-500">
                         <div className="flex items-center gap-2">
                             <span className="w-5 h-5 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600 text-xs">🔒</span>
                             Privacy-first
