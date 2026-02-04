@@ -7,7 +7,7 @@ export default function Differentiation() {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
-        <section className="py-20 md:py-32 bg-white relative overflow-hidden px-6 md:px-12">
+        <section className="py-16 md:py-32 bg-white relative overflow-hidden px-6 md:px-12">
             <div className="max-w-7xl mx-auto relative z-10">
 
                 <div className="grid lg:grid-cols-2 gap-20 items-center mb-16 lg:mb-24">

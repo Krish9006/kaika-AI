@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function B2BHero() {
     return (
-        <section className="relative flex flex-col pt-24 lg:pt-20 pb-0 px-6 md:px-12 overflow-hidden bg-white/50 backdrop-blur-3xl min-h-[auto] lg:min-h-[110vh]">
+        <section className="relative flex flex-col pt-20 pb-12 px-6 md:px-12 overflow-hidden bg-white/50 backdrop-blur-3xl min-h-[auto] lg:min-h-[110vh]">
 
             {/* Subtle Gradient Orbs */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
@@ -31,27 +31,27 @@ export default function B2BHero() {
                 </button>
             </nav>
 
-            <div className="max-w-7xl mx-auto w-full relative z-10 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center px-4 md:px-0 mt-8 mb-8 lg:mb-0">
+            <div className="max-w-7xl mx-auto w-full relative z-10 grid lg:grid-cols-2 gap-8 lg:gap-12 lg:items-center md:px-0 mt-8 mb-8 lg:mb-0">
 
                 {/* Left: Typography */}
-                <div className="pl-2 text-center lg:text-left">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100/80 border border-slate-200 mb-6 mx-auto lg:mx-0">
+                <div className="block w-full text-left">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100/80 border border-slate-200 mb-6">
                         <span className="flex h-2 w-2 rounded-full bg-indigo-500 relative">
                             <span className="absolute inline-flex h-full w-full rounded-full bg-indigo-500 opacity-75 animate-ping"></span>
                         </span>
                         <span className="text-sm font-medium text-slate-600">Now Accepting Pilot Partners</span>
                     </div>
 
-                    <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1]">
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1] !text-left">
                         Align your workforce. <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Prevent burnout</span> before it starts.
                     </h1>
 
-                    <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
+                    <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed font-medium !text-left">
                         Kaika AI gives your organization deep, anonymized insights into employee purpose and well-being — helping you retain top talent through meaning, not just perks.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <div className="flex flex-col sm:flex-row gap-4 justify-start">
                         <button className="bg-slate-900 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-800 transition-all shadow-xl shadow-slate-900/20 hover:-translate-y-1 active:scale-95 flex items-center gap-2 justify-center">
                             Inquire for Pilot
                         </button>
@@ -60,7 +60,7 @@ export default function B2BHero() {
                         </button>
                     </div>
 
-                    <div className="mt-8 flex items-center justify-center lg:justify-start gap-6 text-sm font-semibold text-slate-500">
+                    <div className="mt-8 flex items-center justify-start gap-6 text-sm font-semibold text-slate-500">
                         <div className="flex items-center gap-2">
                             <span className="w-5 h-5 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600 text-xs">👥</span>
                             For HR Leaders

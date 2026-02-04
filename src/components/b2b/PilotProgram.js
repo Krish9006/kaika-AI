@@ -1,12 +1,12 @@
 export default function PilotProgram() {
     return (
-        <section className="py-24 bg-slate-50 overflow-hidden relative">
+        <section className="py-16 md:py-24 bg-slate-50 overflow-hidden relative">
             <div className="absolute inset-0 bg-grid-slate-200/50 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] pointer-events-none" />
 
             <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
                 <div className="text-center mb-20">
                     <span className="text-indigo-600 font-bold tracking-wide uppercase text-sm py-1 px-3 bg-indigo-50 border border-indigo-100 rounded-full">How it Works</span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mt-6 mb-6 tracking-tight">
+                    <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-6 tracking-tight">
                         A low-friction pilot. <br />High-impact insights.
                     </h2>
                 </div>

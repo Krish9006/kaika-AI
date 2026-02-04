@@ -1,6 +1,6 @@
 export default function OrganizationalProblem() {
     return (
-        <section className="py-24 bg-white relative overflow-hidden">
+        <section className="py-16 md:py-24 bg-white relative overflow-hidden">
             {/* Background Decoration */}
             <div className="absolute left-0 top-1/4 w-64 h-64 bg-red-50 rounded-full blur-3xl opacity-60 pointer-events-none" />
 
@@ -9,7 +9,7 @@ export default function OrganizationalProblem() {
                     <div className="inline-block px-3 py-1 bg-red-50 border border-red-100 rounded-full text-red-600 text-sm font-bold mb-6">
                         The Challenge
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
+                    <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
                         The hidden cost of <span className="text-red-500">misalignment.</span>
                     </h2>
                     <p className="text-xl text-slate-600 leading-relaxed font-medium">
@@ -20,7 +20,7 @@ export default function OrganizationalProblem() {
 
                 <div className="grid md:grid-cols-3 gap-8 text-center">
                     {/* Stat Card 1 */}
-                    <div className="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 group">
+                    <div className="p-8 md:p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 group">
                         <div className="w-20 h-20 mx-auto bg-white rounded-2xl shadow-sm flex items-center justify-center mb-6">
                             <span className="text-4xl">📉</span>
                         </div>
@@ -30,7 +30,7 @@ export default function OrganizationalProblem() {
                     </div>
 
                     {/* Stat Card 2 */}
-                    <div className="p-10 rounded-[2.5rem] bg-indigo-600 text-white shadow-2xl shadow-indigo-200 transform md:-translate-y-4">
+                    <div className="p-8 md:p-10 rounded-[2.5rem] bg-indigo-600 text-white shadow-2xl shadow-indigo-200 transform md:-translate-y-4">
                         <div className="w-20 h-20 mx-auto bg-white/10 rounded-2xl flex items-center justify-center mb-6 backdrop-blur-sm">
                             <span className="text-4xl">🚀</span>
                         </div>
@@ -40,7 +40,7 @@ export default function OrganizationalProblem() {
                     </div>
 
                     {/* Stat Card 3 */}
-                    <div className="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 group">
+                    <div className="p-8 md:p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 group">
                         <div className="w-20 h-20 mx-auto bg-white rounded-2xl shadow-sm flex items-center justify-center mb-6">
                             <span className="text-4xl">🎯</span>
                         </div>

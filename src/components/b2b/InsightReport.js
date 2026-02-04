@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function InsightReport() {
     return (
-        <section className="py-24 bg-white overflow-hidden">
-            <div className="max-w-7xl mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-16 items-center">
+        <section className="py-16 md:py-24 bg-white overflow-hidden">
+            <div className="max-w-7xl mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
                 <div className="order-2 lg:order-1 relative flex items-center justify-center">
                     <div className="relative w-full max-w-md aspect-square">
@@ -21,7 +21,7 @@ export default function InsightReport() {
 
                 <div className="order-1 lg:order-2">
                     <span className="text-purple-600 font-bold tracking-wide uppercase text-sm py-1 px-3 bg-purple-50 border border-purple-100 rounded-full">Deep Insights</span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mt-6 mb-8 tracking-tight">
+                    <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-8 tracking-tight">
                         See what’s actually <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-indigo-600">happening.</span>
                     </h2>
                     <p className="text-lg text-slate-600 leading-relaxed mb-10 font-medium">
